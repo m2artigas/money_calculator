@@ -1,0 +1,4 @@
+usd,Dolar USA,$
+eur,Euro UE,€
+jpy,Yen Japón,Y
+gdb,Libra Esterlina,L
