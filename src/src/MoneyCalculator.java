@@ -17,10 +17,10 @@ public class MoneyCalculator {
         List<Currency> list = currencyLoaderFromFile.loadCurrencies();
         ExchangeRateLoaderFromWebService web = new ExchangeRateLoaderFromWebService();
 
-        //CONTROL
+        //VIEW
         MCView view = new MCView("Money Calculator", list);
         
-        //VIEW
+        //CONTROL
         MCController controller = new MCController(web, view);
 
 
